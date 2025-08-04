@@ -7,7 +7,7 @@ const Orders =()=> {
 
   const [data,setData]=useState([]);
   const fetchOrders=async()=>{
-  const response=  await axios.get("http://localhost:8080/api/orders/all");
+  const response=  await axios.get("https://bedrooms-monsters-ties-ntsc.trycloudflare.com/api/orders/all");
 
   setData(response.data);
  
