@@ -1,5 +1,5 @@
 import axios from "axios"
-const API_URl = 'http://localhost:8080/api/foods';
+const API_URl = 'https://bedrooms-monsters-ties-ntsc.trycloudflare.com/api/foods';
 
 export const addFood = async (foodData, image) => {
 
